@@ -1,0 +1,88 @@
+/* simon says game */
+#container{
+    position: relative;
+   height: 100vh;
+   width: 100vw;
+
+}
+#simon{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 450px;
+    height: 450px;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 45%;
+    margin: 0 10px;
+    
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.red{
+    background-color: rgb(205, 47, 144);
+}
+.yellow{
+    background-color: rgb(203, 203, 44);
+}
+.green{
+    background-color:rgb(54, 191, 54);
+}
+.purple{
+    background-color: rgb(53, 53, 197);
+    /* border-top-left-radius: 50px; */
+}
+.heading{
+    border: 1.5px solid #999;
+    margin-top: -5px;
+    padding: 3px;
+    font-size: 20px;
+    text-align: center;
+
+}
+#heighestScore{
+    display: none;
+    background-color: hsl(0, 9%, 87%);
+}
+
+#simon h1{
+    font-size: 26px;
+    background-color: hsl(0, 2%, 68%);
+    padding: 1px 5px;
+}
+
+.flash{
+    background-color: white;
+    border-radius: 50%;
+    transition: all 2s linear 0s 1;
+}
+
+#startBtn{
+    border-radius: 30%;
+    padding: 15px 7px;
+    color:white;
+    background-color: #2b2b2b;
+    font-weight: bold;
+    margin: 0;
+    margin-left:42%;
+}
